@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <style name="Theme.GuidelinesCompat" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+        <item name="actionModeBackground">@color/colorPrimary</item>
+
+        <!-- Actionbar styles -->
+        <item name="actionBarTheme">@style/Theme.GuidelinesCompat.Toolbar</item>
+
+    </style>
+
+    <style name="Theme.GuidelinesCompat.Toolbar" parent="Theme.GuidelinesCompat.NoActionBar">
+
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="colorControlNormal">#fff</item>
+
+    </style>
+
+
+   <!--     <style name="SplashTheme" parent="AppTheme">
+            <item name="android:windowBackground">@drawable/splash</item>
+            <item name="actionModeBackground">@color/primary_colored</item>
+            <item name="colorPrimary">@color/primary_colored</item>
+            <item name="colorPrimaryDark">@color/primary_colored</item>
+            <item name="colorAccent">@color/primary_colored</item>
+        </style>-->
+
+</resources>
